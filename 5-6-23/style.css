@@ -1,0 +1,44 @@
+body{
+    background-color: #1b1b32;
+}
+h1 {
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+}
+h1 {
+    color: rgb(8, 8, 7);
+}
+p,h2{
+    color: azure;
+}
+}
+.karachi{
+    color: brown;
+    background: none;
+    text-align: left;
+    font-family:sans-serif;
+
+}
+body{
+    background-color: burlywood;
+}
+p,h4{
+    color: #2c2c64;
+    font-size: large;
+}
+.saylani{
+    background-color: rgb(71, 121, 22);
+}
+.para{
+    color:beige
+}
+.heading{
+    color: peachpuff;
+}
+h1,h4{
+    text-align: left;
+    color: peachpuff;
+    background:none
+}

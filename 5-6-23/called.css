@@ -1,0 +1,23 @@
+body{
+    background-color: #1b1b32;
+    border-bottom: #1b1b32;
+}
+h1{
+    background-color: rgb(6, 0, 29);
+    font-style: oblique;
+}
+h1{
+    text-align: center;
+}
+h1 {
+    color: #274745;
+}
+p,h3{
+    color: azure;
+}
+.gg {
+    color: blue;
+}
+.ggg{
+    color: blueviolet;
+    
