@@ -1,0 +1,164 @@
+body{
+  background-color: #000000;
+}
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    width: 200px;
+    margin-left: 10px;
+    
+}
+
+ul {
+    display: flex;
+    margin-left: 280px;
+    list-style-type: none;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+    color: #ff9800;
+}
+.logo img {
+    height: 160px;
+  }
+.franchise-button,
+.order-now-button {
+  padding: 20px 20px;
+  margin-left: 10px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius:30px;
+  
+}
+.img1{
+  height:600px;
+  width:100%;
+  max-width:100%;
+  min-width: 200px:
+}
+
+.order-now-button {
+  background-color;
+}
+
+.franchise-button:hover,
+.order-now-button:hover {
+  opacity: 0.8;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ color: #fff;
+ text-align: center;
+ line-height: 50px;
+ font-size: 30px;
+}
+.Salt{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  font-weight: 500;
+  font-size: 40px;
+}
+.para1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:burlywood;
+  text-align: center;
+  line-height:0px;  
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.lazy1{
+  background-color: #fff;
+  padding:15px 15px;
+  margin-top: 10px;
+  margin-left: 260px;
+  border-radius: 5px;
+  justify-content:center ;
+  align-items: center;
+  width: 200px;
+  height:100px;
+  max-width:800px;
+  min-width:100px;
+}
+.lazy{
+  background-color: #fff;
+  padding:15px 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+  justify-content:center ;
+  align-items: center;
+  width: 200px;
+  height:100px;
+  max-width:800px;
+  min-width:100px;
+}
+.one{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 35px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-left:-40px;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+.two{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: #fff;
+ background-color: #000000;
+ border-radius: 35px;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #fff;
+ margin-top: 20px;
+ margin-left: 120px; 
+ padding: 20px 10px;
+ cursor: pointer;
+}
+.three{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: #fff;
+ background-color: #000000;
+ border-radius: 35px;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #fff;
+ margin-top: 20px;
+ margin-left: 100px;
+ padding: 20px 10px;
+ cursor: pointer;
+}
+.order li{
+  margin-top: 50px;
+}
+
+
+
