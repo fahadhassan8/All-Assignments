@@ -70,6 +70,9 @@ a:hover {
 .order-now-button:hover {
   opacity: 0.8;
 }
+.backcolor{
+  background-color: rgb(255 255 255 / 6%);
+}
 h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
  color: #fff;
@@ -208,4 +211,100 @@ h2{
   font-family: 'Courier New', Courier, monospace;
   font-size: 41px;
   font-weight: bolder;
+}
+.para5 p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#fff;
+  margin-top:20px;
+  margin-left:120px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.para5 img{
+  width:40px;
+  margin-top: 10px;
+  position: absolute;
+  left: -40px;
+  bottom:-10px
+}
+.main1 {
+  color: #fff;
+  width:200px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height:40px;
+  margin-top: 60px;
+  margin-left: 90px;
+  border-radius: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  padding-top: 20px;
+  padding-right: 10px;
+  position: relative;
+}
+.main1 img{
+  width:30px;
+  padding-bottom: 8px;
+  position:absolute
+}
+.img3{
+  float:left;
+  margin-top: 60px;
+  margin-left: 90px;
+  width: 450px;
+  max-width:500px;
+  min-width:100px;
+}
+.para6{
+  color: red;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+  margin-left: 90px;
+  margin-top: 50px;
+  display: inline-block;
+}
+.para7{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#fff;
+  margin-top:0px;
+  font-size: 30px;
+}
+.para7 span{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 41px;
+  font-weight: bolder;
+  margin-left: 90px;
+}
+.para8 span{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#fff;
+  margin-left:120px;
+  margin-top: -50px;
+  position: relative;
+}
+.para8 img{
+  width:40px;
+  position: absolute;
+  left: 620px;
+  bottom: -1205px;
+}
+.main2 {
+  color: #fff;
+  width:200px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 640px;
+  margin-top: 60px;
+  border-radius: 40px;
+  border-width: 1px;
+  border-style:solid;
+  border-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  position: relative;
+}
+.main2 img{
+  width:30px;
+  padding-bottom: 8px;
+  position:absolute
 }
