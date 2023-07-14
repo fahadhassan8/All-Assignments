@@ -24,8 +24,8 @@ a:hover{
     color: burlywood;
 }
 a:visited{
-    color: brown;
+    color: red;
 }
 a:link{
-    color:grey;
+    color:brown;
 }
