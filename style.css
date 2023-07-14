@@ -26,3 +26,6 @@ a:hover{
 a:visited{
     color: brown;
 }
+a:link{
+    color:grey;
+}
