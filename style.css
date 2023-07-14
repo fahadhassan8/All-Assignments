@@ -20,15 +20,10 @@ p{
     font-size: larger;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-a:hover{
-    color: burlywood;
-    text-decoration: none;
-}
-a:visited{
+/* a:visited{
     color: red;
     text-decoration: none;
-}
-
+} */
 a:hover{
     color: burlywood;
     text-decoration: none;
