@@ -25,7 +25,8 @@ a:visited{
     text-decoration: none;
 }
 .color{
-    color:brown
+    color:brown;
+    text-decoration: none;
 }
 a:hover{
     color: burlywood;
