@@ -78,6 +78,14 @@ a:hover {
 .backcolor {
   background-color: rgb(255 255 255 / 6%);
   height: 1100px;
+  position: relative;
+}
+.para2 img{
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0px;
+  left: 900px;
+  z-index: 0.1;
 }
 
 h2 {
@@ -96,7 +104,7 @@ h2 {
 
 .para1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: burlywood;
+  color:rgb(255 255 255 / 6%);
   text-align: center;
   line-height: 0px;
   font-size: 15px;
@@ -196,7 +204,7 @@ h2 {
 
 .para2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: burlywood;
+  color: rgba(255, 255, 255, 0.7);
   text-align: center;
   line-height: 0px;
   font-size: 15px;
@@ -306,6 +314,7 @@ h2 {
   font-size: 41px;
   font-weight: bolder;
   margin-left: 90px;
+  
 }
 
 .para8 span {
@@ -320,7 +329,7 @@ h2 {
   width: 40px;
   position: absolute;
   left: 620px;
-  bottom: -1205px;
+  top: 613px;
 }
 
 .main2 {
@@ -387,7 +396,7 @@ h2 {
 
 .para11 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 0px;
   font-size: 20px;
 }
@@ -403,7 +412,7 @@ h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   margin-left: 140px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: normal;
   position: relative;
   ;
@@ -436,7 +445,7 @@ h2 {
 
 .para13 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 0px;
   font-size: 20px;
 }
@@ -452,7 +461,7 @@ h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   margin-left: 520px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: normal;
   position: relative;
   ;
@@ -486,7 +495,7 @@ h2 {
 
 .para16 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 0px;
   font-size: 20px;
 }
@@ -502,7 +511,7 @@ h2 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   margin-left: 870px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: normal;
   position: relative;
 }
@@ -545,7 +554,7 @@ h2 {
 }
 .para19{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:#fff;
+  color:rgba(255, 255, 255, 0.7);
   margin-top:0px;
   font-size: 20px;
 }
@@ -559,7 +568,7 @@ h2 {
   font-family:'Courier New', Courier, monospace;
   font-size: 15px;
   margin-left: 50px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: normal;
   position: relative;;
 }
@@ -588,7 +597,7 @@ h2 {
 }
 .para22{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:#fff;
+  color:rgba(255, 255, 255, 0.7);
   margin-top:0px;
   font-size: 20px;
 }
@@ -602,7 +611,7 @@ h2 {
   font-family:'Courier New', Courier, monospace;
   font-size: 15px;
   margin-left: 120px;
-  color: #FFF;
+  color: rgba(255, 255, 255, 0.7);
   font-weight: normal;
   position: relative;
 }
@@ -645,7 +654,7 @@ h2 {
 
 .para25 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin-top:150px;
   margin-left: 5px;
   font-size: 0px;
@@ -663,7 +672,7 @@ h2 {
 
 .para26 span {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
   margin-left: 655px;
   margin-top: 135px;
   position: absolute;
@@ -696,4 +705,221 @@ h2 {
   width: 30px;
   padding-bottom: 8px;
   position: absolute
+}
+.Salt4 {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.Salt4 span {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+.Salt4 {
+  font-size: 40px;
+}
+.Salt4 i{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+}
+/* .container{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.box{
+  width:300px;
+  height:250px;
+  background-color: white;
+  border:1px solid #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.box1{
+  width:300px;
+  height:250px;
+  background-color: white;
+  border:1px solid #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media only screen screen and (max-width:300px) {
+.box, .box1{
+  width:100%
+}  
+}
+ */
+
+.flex-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: black;
+}
+.flex-image div {
+  width: 25%;
+  height: 270px;
+  background-color: white;
+  margin: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+@media only screen screen and (max-width:300px) {
+  .box, .box2, .box3, .box4, .box5{
+   width:80%
+}  
+}
+.flex-image img {
+  display: block;
+  margin: 20px auto;
+}
+.flex-image > div > p {
+  padding:3px 0px;
+  line-height: 4px;
+}
+
+.small {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #ed1c24;
+  font-family: "apercu";
+}
+.Salt5 {
+  text-align: center;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+  color: #fff;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.images-beta{
+  display: flex; 
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+.images-beta img{
+ width:100%px;
+ height: 230px;
+ flex-wrap: wrap;
+}
+.last{
+  min-width:200px;
+  max-width:100%;
+  background-color:rgb(255 255 255 / 6%);
+  width:100%;
+  height:450px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-image: url(https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+}
+.last1{
+  min-width:200px;
+  max-width:800px;
+  width:330px;
+  height:300px;
+  margin-top: 80px;
+  background-image: url(https://static.tossdown.com/images/da52b9b3-ba03-4d41-bc8f-ac9e7d6a598b.webp);
+  background-repeat: no-repeat;
+  background-position: top left;
+  
+}
+.last2{
+  min-width:200px;
+  max-width:800px;
+  width:200px;
+  height:200px;
+  margin-top: 80px;
+}
+.last3{
+  min-width:200px;
+  max-width:800px;
+  width:200px;
+  height:200px;
+  margin-top: 80px;
+}
+.last4{
+  min-width:200px;
+  max-width:800px;
+  width:200px;
+  height:200px;
+  margin-top: 80px;
+}
+.last1 p{
+  min-width:200px;
+  max-width:800px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top:80px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.01px;
+}
+.last2 p{
+  min-width:200px;
+  max-width:800px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.01px;
+}
+#last2child{
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  color: #fff;
+}
+.last3 p{
+  min-width:200px;
+  max-width:800px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 0.01px;
+}
+#last3child{
+  min-width:200px;
+  max-width:800px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  color: #fff;
+  padding-bottom: 10px;
+}
+#last4child{
+  min-width:200px;
+  max-width:800px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  color: #fff;
+  padding-bottom: 10px;
+}
+.last4 i{
+  color: #ed1c24;
+  font-size: 40px;
+  margin-right: 5px;
+}
+#custom-hr{
+  margin-top:-10px;
+  background-color: grey;
+  border: none;
+  height:2px
+}
+#end{  
+  min-width:200px;
+  max-width:800px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 1px;
 }
