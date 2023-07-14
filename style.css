@@ -22,10 +22,13 @@ p{
 }
 a:hover{
     color: burlywood;
+    text-decoration: none;
 }
 a:visited{
     color: red;
+    text-decoration: none;
 }
 a:link{
     color:brown;
+    text-decoration: none;
 }
