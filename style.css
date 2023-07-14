@@ -24,10 +24,10 @@ a:visited{
     color: red;
     text-decoration: none;
 }
+.color{
+    color:brown
+}
 a:hover{
     color: burlywood;
     text-decoration: none;
-}
-.color{
-    color:brown
 }
