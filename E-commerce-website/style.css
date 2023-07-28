@@ -101,11 +101,13 @@
     }
 }
 @media only screen and (max-width:600px){
-    .images {
-        width:100%;
-        padding: 10px;
+    .images{
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .img-thumbnail{
+        width: 100%;
     }
 } 
 @media only screen and (max-width: 332px){
@@ -114,5 +116,13 @@
     }
     .theme-search>button{
         width: 100%;
+    }
+    .images{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-thumbnail{
+        width: 80%;
     }
 }
