@@ -303,15 +303,15 @@
     .thumbnail img{
         width:250px;   
     }
-    .secondHalf{
+    .secondHalf img{
         width:150px;
         height:150px;
         border-width: 1px;
         border-radius: 50%;
         margin-right: 100px;
     }
-    .screen-480{
-        padding-bottom:20px;
+    .first-section{
+        margin-top:30px !important
     }
     .image4{
         margin-top: 30px;
