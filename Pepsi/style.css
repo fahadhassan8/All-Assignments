@@ -770,6 +770,10 @@ h2 {
     }  
 }
 @media only screen and (max-width:360px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
     .unlock-free-btn {
         align-self: center;
         width:120px;
