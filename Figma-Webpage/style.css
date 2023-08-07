@@ -2,9 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
-.container{
+/* .container{
     background-color: #edecec;
-}
+} */
 .navbar{
     background-color: #fff;
     padding-top: 30px;
@@ -62,7 +62,10 @@ ul{
 .main{
     padding-top: 80px;
     display: flex;
+    justify-content: space-evenly;
+    background-color: #F9F9F9
 }
+
 .main1{
     display: flex;
     flex-direction: column;
@@ -78,6 +81,12 @@ ul{
 .sub-main3 > img{
     margin-top: 40px;
     width:200px;
+}
+.main2{
+    background-color: #F9F9F9;
+}
+.background-color{
+    background-color: #F9F9F9;
 }
 .main2 > img{
     width:400px;
@@ -125,6 +134,7 @@ ul{
 .big-boss{
     display: flex;
     margin-top: 100px;
+    background-color: #F9F9F9;
 }
 .circle-left{
     background-image: url(images/circle.png);
@@ -303,7 +313,7 @@ ul{
     height:200px
 }
 .blank{
-    background-color: #edecec;
+    background-color: #F9F9F9;
     height:180px;
     width:90%;
 }
@@ -328,4 +338,92 @@ ul{
     position: absolute;
     top: 130px;
     left:1090px;
+}
+@media only screen and (max-width:375px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .o-tere>img{
+        margin-left: 20px;
+        width:80px;
+        height:30px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+    .main1{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-main1{
+        text-align: center;
+    }
+    .sub-main1>img{
+        width: 80%;
+    }
+    .sub-main2{
+        text-align: center;
+    }
+    .sub-main2 > img {
+        margin-top: px;
+        width:90%;
+    }
+    .sub-main3{
+        text-align: center;
+    }
+    .sub-main3 > img{
+        margin-top: 40px;
+        width:150px;
+    }
+    .main2>img{
+       width:90%;
+       margin-right:0px;
+       margin-top: 20px;
+       float: right;
+    }
+    .box{
+        text-align: center;
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        border-radius:5px;
+        height: 270px;
+        width: 100%;
+    }
+    .paragraph{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .input>input{
+        font-size: 18px;
+        width:265px; 
+        margin-bottom: 15px;
+        padding: 15px;;
+    }
+    .input>button{
+        font-size: 20px;
+        padding: 15px;
+        margin-bottom: 40px;
+        width:295px;
+    }
+    .box2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .tere-works>img{
+        width:70%;
+    }
+    .para2 > img{
+        padding-top: 20px;
+        width: 90%;
+    }
 }
