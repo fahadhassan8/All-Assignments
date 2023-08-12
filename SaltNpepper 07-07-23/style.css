@@ -805,7 +805,7 @@ h2 {
   color: #fff;
   padding-bottom: 10px;
 }
-#last4child{
+#last4childd{
   min-width:200px;
   max-width:800px;
   font-family:'Times New Roman', Times, serif;
@@ -1106,7 +1106,7 @@ h2 {
   .last1{
     display: none;
   }
-  .last4,.last4child{
+  .last4,.last4childd{
     margin-left: 70px;
   }
 }
