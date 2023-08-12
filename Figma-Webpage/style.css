@@ -13,9 +13,6 @@
 .o-tere>img{
     margin-left: 30px;
 }
-ul{
-    margin-left: 500px;
-}
 .nav-item>a{
     color: #000;
     font-size: 17px;
@@ -351,10 +348,16 @@ ul{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .nav-item>a{
+        text-align: center;
+    }
+    .custom-btn{
+        margin-left: 90px;
+    }
     .o-tere>img{
         margin-left: 20px;
-        width:80px;
-        height:30px;
+        width:50%;
+        height:30%;
     }
     .main{
         display: flex;
@@ -374,7 +377,6 @@ ul{
         text-align: center;
     }
     .sub-main2 > img {
-        margin-top: px;
         width:90%;
     }
     .sub-main3{
@@ -382,7 +384,7 @@ ul{
     }
     .sub-main3 > img{
         margin-top: 40px;
-        width:150px;
+        width:40%;
     }
     .main2>img{
        width:90%;
@@ -396,24 +398,24 @@ ul{
         margin-top: 50px;
         flex-direction: column;
         border-radius:5px;
-        height: 270px;
+        height: 200%;
         width: 100%;
     }
     .paragraph{
-        font-size: 23px;
+        font-size: 1.7rem;
         line-height: 30px;
     }
     .input>input{
-        font-size: 18px;
-        width:265px; 
+        font-size: 1rem;
+        width:80%; 
         margin-bottom: 15px;
         padding: 15px;;
     }
     .input>button{
-        font-size: 20px;
+        font-size: 1rem;
         padding: 15px;
         margin-bottom: 40px;
-        width:295px;
+        width:80%;
     }
     .box2{
         text-align: center;
@@ -425,5 +427,128 @@ ul{
     .para2 > img{
         padding-top: 20px;
         width: 90%;
+    }
+    .big-boss{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        background-color: #F9F9F9;
+    }
+    .center{
+        order:2;
+    }
+    .sub-center{
+        margin: 0px auto;
+        height:250px;
+        width:250px;
+        border:2px solid  #75BF7A;
+        border-radius: 350px;
+    }
+    .sub-center2 > img{
+        width:45%;
+        position: absolute;
+        margin: 0px auto;
+        bottom: -32px;
+    }
+    .dots{
+        display: none;
+    }
+    .left-sec{
+        order: 1;
+        align-self: center;
+        margin-right:20%;
+    }
+    .right-sec{
+    
+    }
+    .circle-left{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .work2 p img{
+        margin-left: 0px;
+        padding-top: 15px;
+    }
+    .big-boss{
+        display: flex;
+        justify-content: center;;
+        margin-top: 80px;
+        background-color: #F9F9F9;
+    }
+    .work3 p img{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    .work4 p img{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    .circle-left{
+        margin-top: 60px;
+    }
+    .circle-right{
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .circle-right2{
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+    .tere-benefits img{
+        margin-top: 30px;
+        width:70%;
+    }
+    .big-box-one{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para7{
+        width:90%;
+    }
+    .big-box-two{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para8{
+        width:90%;
+    }
+    .big-box-three{
+        margin-top: 50px;
+        width:100%;
+        height:60vh;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .para9{
+        width:90%;
+    }
+    .last-section{
+        height:70%;
+        width:100%;
+    }
+    .last-section > img{
+        top:20px;
+        left:90px;
+    }
+    .last-section .last-image1{
+        width:30%;
+        top: 90px;
+        left:50px;
+    }
+    .last-section .last-image2{
+        width:30%;
+        top: 90px;
+        left:170px;
     }
 }
