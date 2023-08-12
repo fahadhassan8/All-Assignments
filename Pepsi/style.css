@@ -145,7 +145,7 @@ body {
     gap:10px;
 }
 
-.zero{
+.zeroo{
     width: 450px;
     margin-top: 50px;
     margin-left: 600px;
@@ -507,7 +507,7 @@ h2 {
         margin-top: 20px;
         gap:10px;
     }
-    .zero{
+    .zeroo{
         width: 400px;
         margin-top: 10px;
         padding-left: 10px;
@@ -790,7 +790,7 @@ h2 {
         margin-top: 20px;
         gap:10px;
     }
-    .zero{
+    .zeroo{
         width: 250px;
         margin-top: 10px;
         padding-left: 10px;
@@ -948,8 +948,6 @@ h2 {
     .head-para {
         display: flex;
         flex-direction: column;
-        
-        
     }
     
     .head-para>h1 {
